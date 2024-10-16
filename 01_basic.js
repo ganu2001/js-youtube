@@ -10,3 +10,4 @@ c = "chitnis"
 
 console.table([b,c])
 
+// only use the const or let because the bolck or the functional scope issue
