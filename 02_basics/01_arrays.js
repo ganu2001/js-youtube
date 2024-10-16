@@ -1,31 +1,39 @@
-// Dates
+// array
 
-let myDate = new Date()
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toLocaleString());
-// console.log(typeof myDate);
+const myArr = [0, 1, 2, 3, 4, 5]
+const myHeors = ["shaktiman", "naagraj"]
 
-// let myCreatedDate = new Date(2023, 0, 23)
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
-let myCreatedDate = new Date("01-14-2023")
-// console.log(myCreatedDate.toLocaleString());
+const myArr2 = new Array(1, 2, 3, 4)
+// console.log(myArr[1]);
 
-let myTimeStamp = Date.now()
+// Array methods
 
-// console.log(myTimeStamp);
-// console.log(myCreatedDate.getTime());
-// console.log(Math.floor(Date.now()/1000));
+// myArr.push(6)
+// myArr.push(7)
+// myArr.pop()
 
-let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+// myArr.unshift(9)
+// myArr.shift()
 
-// `${newDate.getDay()} and the time `
+// console.log(myArr.includes(9));
+// console.log(myArr.indexOf(3));
 
-newDate.toLocaleString('default', {
-    weekday: "long",
-    
-})
+// const newArr = myArr.join()
+
+// console.log(myArr);
+// console.log( newArr);
+
+
+// slice, splice
+
+console.log("A ", myArr);
+
+const myn1 = myArr.slice(1, 3)
+
+console.log(myn1);
+console.log("B ", myArr);
+
+
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr);
+console.log(myn2);
