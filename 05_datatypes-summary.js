@@ -22,7 +22,7 @@ console.log(id === anotherId);
 
 // Reference (Non primitive)
 
-// Array, Objects, Functions
+// Array, Objects, Functions   = data type is function  and only for funtion is object function 
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
