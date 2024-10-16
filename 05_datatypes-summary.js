@@ -1,6 +1,8 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt(kahi mothya values ahet tya bibg int la use hotat )
+//    : this all  are callByValue 
 
 const score = 100
 const scoreValue = 100.3
@@ -35,3 +37,16 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// type of object 
+
+// undefined = undefined 
+// null = Object 
+// Boolean = Boolean 
+// Number = Number
+// String = String 
+// Object(does not implement call ) = Object
+// Object(does  implement call ) = function 
