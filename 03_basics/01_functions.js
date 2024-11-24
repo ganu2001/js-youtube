@@ -10,7 +10,8 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){   // the defination of the function the variable in  the function |
+//     let sum = number1 + number2;           // the variable in the function is called a paramater  
 
 //     console.log(number1 + number2);
 // }
@@ -22,9 +23,12 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
+const result = addTwoNumbers(3, 5)      // at the time of the callinf is called a "Arguments"  this ia a different name 
 
-// console.log("Result: ", result);
+// console.log("Result: ", result);  
+
+// all the time we need to return the function value if we not return the function than it gives the "Undefined" in the ans 
+// one more rule of the function once we return a function than we can't execute any things in the function  
 
 
 function loginUserMessage(username = "sam"){
