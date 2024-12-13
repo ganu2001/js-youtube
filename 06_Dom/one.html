@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Dom</title>
+</head>
+<body>
+    <div class="bg_black">
+        <h1 id="headingid" class="heading">Dom Learning <span style="display: none;">test</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <div>Lorem ipsum dolor sit amet.</div>
+    </div>
+    <script>
+       let a =  document.getElementById("headingid").id
+       console.log(a)
+
+       let b =  document.getElementsByClassName("heading")
+       console.log(b)
+
+       headingid.style.color = "green"
+       headingid.style.padding = "10px"
+
+
+       console.log(headingid.textContent)  //content show all text which is hiden by you also 
+
+       console.log(headingid.innerText) // it shows the visible thing on the Screen 
+
+
+       console.log(headingid.innerHTML) // it gives a all HTML tag  in this 
+
+       console.log(document.querySelector("h2")) // he first 1 dete
+ 
+    </script>
+</body>
+</html>
