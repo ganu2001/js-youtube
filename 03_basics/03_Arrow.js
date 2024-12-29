@@ -27,7 +27,7 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username);   // this linee gives a undefined in the op cause this is used only in the obj 
 // }
 
 // chai()
@@ -49,7 +49,12 @@ const chai =  () => {
 //     return num1 + num2
 // }
 
+
+// implisite return manatat yala means yet  na ek line madhye code lihila  
+
 // const addTwo = (num1, num2) =>  num1 + num2
+
+// yat na "()" lavale na tr retun lihayachi garaj nahi ye 
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
