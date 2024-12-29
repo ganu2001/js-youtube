@@ -45,3 +45,13 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+
+//  question ?
+
+/*
+1. What is the difference between a Symbol and a string?
+2. yat last la cpnso;e kela tr na te undefined ka det ae ? 
+
+
+*/

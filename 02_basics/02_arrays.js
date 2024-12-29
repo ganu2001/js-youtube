@@ -34,7 +34,7 @@ console.log(Array.from("Hitesh"))
 // he "form " : je dila tya pasun Array tayar katrte 
 
 console.log(Array.from({name: "hitesh"})) // interesting
-// he je asa kaey value pair dila tr te na empty array dete cause te confuse hote ki kasa cha array karu kay ka value cha te 
+// he je asa key value pair dila tr te na empty array dete cause te confuse hote ki kasa cha array karu kay ka value cha te 
 
 
 let score1 = 100
@@ -42,4 +42,4 @@ let score2 = 200
 let score3 = 300
 
 console.log(Array.of(score1, score2, score3));
-// he "of " method te array tayar karte pan te set of elements  poasun karate
+// he "of " method te array tayar karte pan te set of elements  pasun karate
