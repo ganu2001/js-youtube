@@ -6,6 +6,16 @@ const user = {
         console.log(`${this.username} , welcome to website`);
         console.log(this);
     }
+    // this is used for current context (meaans it refer to the current context )
+
+    /*
+    yat na direct this la log kela na tr te empty object dete means te current context empty asa te 
+    pan te jr browser la jaun kela tr te tithe na window OBJ dete )(browser madhye window global 
+    obj ahe )
+    
+    if apan log this  he ek function madhye kela na tr ma tyat na khup kahi yete aani baher kela tr ma 
+    tyat kahi nahi yet.
+    */
 
 }
 
